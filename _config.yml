@@ -2,7 +2,7 @@
 title: A-X-R
 description: Robot, A-X-R
 url: "http://axrprojects.com" # the base hostname & protocol for your site
-stream: "summit1g"
+stream: "axrteammember"
 email: "axrprojects@gmail.com"
 shortname: A-X-R
 exclude: [Gemfile]
