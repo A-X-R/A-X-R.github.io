@@ -1,8 +1,22 @@
+
 .centered {
     text-align: center;
 }
 .navbar-nav li a {
- line-height: 120px;
+ line-height: 70px;
+ border: none !important;
+ 
+}
+.navbar-nav li a:hover {
+     text-shadow: 1px 1px 1px #000;
+ }
+.navbar-nav li img:hover {
+    -webkit-filter: drop-shadow( 5px -5px 5px #000 );
+            filter: drop-shadow( 5px -5px 5px #000 ); /* Same syntax as box-shadow */
+}
+.navbar-nav li img {
+  width: 80px;
+  height: 80px;
 }
 @media (min-width: 768px) {
     .navbar .navbar-nav {
@@ -15,4 +29,24 @@
 }
 * {
     border-radius: 0 !important;
+}
+.full {
+    background: url('/resources/img/steampunk.jpg') no-repeat center center; /*Image via http://c55inator.deviantart.com/art/Wallpaper-Dryad-SteamPunk-152836645 */
+    color: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height:100%;
+}
+
+.paddinghello {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.navbar-links {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
 }
